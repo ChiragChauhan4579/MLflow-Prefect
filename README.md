@@ -67,6 +67,8 @@ app.py script contains a Prefect flow defined with the @flow decorator, the flow
 
 Now finally run the pipeline with `python app.py`
 
-In the Cron schedule the time format is as seconds/minutes/hours
+In the Cron schedule, the time format is as seconds/minutes/hours
 
 To start a run itself at the current movement use the run button in the deployments menu.
+
+![Prefect run](https://github.com/ChiragChauhan4579/MLflow-Prefect/blob/main/images/deployment%20section.png)
