@@ -67,8 +67,16 @@ app.py script contains a Prefect flow defined with the @flow decorator, the flow
 
 Now finally run the pipeline with `python app.py`
 
+The flow would look like 
+
+![Prefect Flow](https://github.com/ChiragChauhan4579/MLflow-Prefect/blob/main/images/prefect%20flow.png)
+
 In the Cron schedule, the time format is as seconds/minutes/hours
 
 To start a run itself at the current movement use the run button in the deployments menu.
 
 ![Prefect run](https://github.com/ChiragChauhan4579/MLflow-Prefect/blob/main/images/deployment%20section.png)
+
+And finally the mlflow results can be viewed at the mlflow server
+
+![mlflow output](https://github.com/ChiragChauhan4579/MLflow-Prefect/blob/main/images/mlflow%20output.png)
